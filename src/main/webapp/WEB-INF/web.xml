@@ -7,13 +7,13 @@
 	version="6.0"
 	metadata-complete="false"
 >
-  <display-name>yo</display-name>
-   <servlet>
-  	<servlet-name>MyServlet</servlet-name>
-  	<servlet-class>com.example.helloservlet1.MyServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>MyServlet</servlet-name>
-  	<url-pattern>/say-hello</url-pattern>
-  </servlet-mapping>
+	<display-name>yo</display-name>
+	<servlet>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>com.example.helloservlet1.MyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/say-hello</url-pattern>
+	</servlet-mapping>
 </web-app>

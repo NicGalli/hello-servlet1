@@ -12,7 +12,7 @@ import io.restassured.RestAssured;
 
 class MyServletIT {
 
-	private static final String BASE_URL = "hello-servlet1/MyServlet";
+	private static final String BASE_URL = "hello-servlet1/say-hello";
 
 	@BeforeAll
 	static void setup() {

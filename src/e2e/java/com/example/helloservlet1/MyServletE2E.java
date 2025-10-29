@@ -1,7 +1,6 @@
 package com.example.helloservlet1;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.fail;
 
 import java.util.logging.Logger;
 
@@ -17,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 class MyServletE2E {
 
 	private static final String BASE_URL = "http://localhost:"
-		+ System.getProperty("tomcat.http.port") + "/hello-servlet1";
+		+ System.getProperty("tomcat.http.port", "8080") + "/hello-servlet1";
 
 	private FirefoxDriver driver;
 
